@@ -463,12 +463,38 @@ Luxtronik.prototype._processData = function () {
         }
     }
     values.opStateHeatingString = heatingStateString;
+    values.estimatedEnergyConsumption = this._calculateElectricEnergyConsumption(values);
 
     return this.receivy.callback(null, {
         values,
         parameters,
         additional,
     });
+};
+
+Luxtronik.prototype._calculateElectricEnergyConsumption = function(values) {
+    const heatPumpRunning =
+        values.heatpump_state3 == 0 || // heizbetrieb
+        values.heatpump_state3 == 8 || // pumpenvorlauf
+        values.heatpump_state3 == 17 ||  // elek. zusatzheizung
+        values.heatpump_state3 == 18;  // elek. zusatzheizung
+    const hotWaterProductionRunning =
+        values.heatpump_state3 == 5 || // brauchwasser
+        values.heatpump_state3 == 9 || // thermische desinfektion
+        values.heatpump_state3 == 19;  // warmwasser nachheizung
+
+    if (heatPumpRunning || hotWaterProductionRunning) {
+        // this factor is estimated by observation
+        const factor = hotWaterProductionRunning
+            ? 44
+            : 37;
+
+        const estimatedHeatPumpEnergyUsage = (values.temperature_hot_gas ?? 0) * factor;
+
+        return estimatedHeatPumpEnergyUsage;
+    }
+
+    return undefined;
 };
 
 function sendData(client, data) {

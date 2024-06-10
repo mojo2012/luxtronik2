@@ -1,0 +1,860 @@
+{
+	"values": {
+		"temperature_supply": 23.8,
+		"temperature_return": 24.8,
+		"temperature_target_return": 23.3,
+		"temperature_extern_return": "no",
+		"temperature_hot_gas": 27.8,
+		"temperature_outside": 13.1,
+		"temperature_outside_avg": 12.4,
+		"temperature_hot_water": 52.2,
+		"temperature_hot_water_target": 56,
+		"temperature_heat_source_in": 19.6,
+		"temperature_heat_source_out": -50,
+		"temperature_mixer1_flow": "no",
+		"temperature_mixer1_target": "no",
+		"temperaturw_RFV": "no",
+		"temperature_mixer2_flow": "no",
+		"temperature_mixer2_target": "no",
+		"temperature_solar_collector": 5,
+		"temperature_solar_storage": 150,
+		"temperature_external_source": 5,
+		"temperature_intake_evaporation": 19.8,
+		"temperature_intake_compressor1": 30,
+		"temperature_compressor1_heating": 48.1,
+		"temperature_overheating": 10.6,
+		"temperature_overheating_target": 8,
+		"ASDin": 1,
+		"BWTin": 0,
+		"EVUin": 1,
+		"HDin": 0,
+		"HDin_pressure": 7.22,
+		"MOTin": 1,
+		"NDin": 1,
+		"NDin_pressure": 7.24,
+		"PEXin": 0,
+		"SWTin": 0,
+		"AVout": 0,
+		"BUPout": 0,
+		"HUPout": 1,
+		"MA1out": 0,
+		"MZ1out": 0,
+		"VENout": 0,
+		"VBOout": 0,
+		"VD1out": 0,
+		"VD2out": 0,
+		"ZIPout": 0,
+		"ZUPout": 0,
+		"ZW1out": 0,
+		"ZW2SSTout": 0,
+		"ZW3SSTout": 0,
+		"FP2out": 0,
+		"SLPout": 0,
+		"SUPout": 0,
+		"MZ2out": 0,
+		"MA2out": 0,
+		"defrostValve": 0,
+		"hotWaterBoilerValve": 0,
+		"heatingSystemCircPump": "on",
+		"heatSourceMotor": 0,
+		"compressor1": 0,
+		"hotWaterCircPumpExtern": 0,
+		"hours_compressor1": 18269,
+		"starts_compressor1": 20613,
+		"hours_compressor2": 0,
+		"starts_compressor2": 0,
+		"hours_2nd_heat_source1": 2556,
+		"hours_2nd_heat_source2": "no",
+		"hours_2nd_heat_source3": "no",
+		"hours_heatpump": 18269,
+		"hours_heating": 14329,
+		"hours_warmwater": 3843,
+		"hours_cooling": "no",
+		"Time_WPein_akt": 1,
+		"Time_ZWE1_akt": 0,
+		"Time_ZWE2_akt": 0,
+		"Timer_EinschVerz": 0,
+		"Time_SSPAUS_akt": 0,
+		"Time_SSPEIN_akt": 0,
+		"Time_VDStd_akt": 59749,
+		"Time_HRM_akt": 0,
+		"Time_HRW_akt": 355679,
+		"Time_LGS_akt": 0,
+		"Time_SBW_akt": 0,
+		"typeHeatpump": "LD7",
+		"bivalentLevel": 1,
+		"WP_BZ_akt": 5,
+		"firmware": "V2.88.3",
+		"AdresseIP_akt": "10.0.0.90",
+		"SubNetMask_akt": "255.255.255.0",
+		"Add_Broadcast": "10.0.0.255",
+		"Add_StdGateway": "10.0.0.254",
+		"errors": [
+			{
+				"code": 719,
+				"date": "2023-12-04T06:37:46.000Z",
+				"message": "Min. Aussentemp. - RESET automatisch"
+			},
+			{
+				"code": 719,
+				"date": "2023-12-04T06:34:41.000Z",
+				"message": "Min. Aussentemp. - RESET automatisch"
+			},
+			{
+				"code": 719,
+				"date": "2023-12-04T06:32:19.000Z",
+				"message": "Min. Aussentemp. - RESET automatisch"
+			},
+			{
+				"code": 719,
+				"date": "2023-12-04T06:31:03.000Z",
+				"message": "Min. Aussentemp. - RESET automatisch"
+			},
+			{
+				"code": 719,
+				"date": "2023-12-04T05:38:22.000Z",
+				"message": "Min. Aussentemp. - RESET automatisch"
+			}
+		],
+		"error_count": 5,
+		"switch_off": [
+			{
+				"code": 9,
+				"date": "2024-06-09T15:21:28.000Z",
+				"message": "Keine Anforderung"
+			},
+			{
+				"code": 9,
+				"date": "2024-06-06T07:32:20.000Z",
+				"message": "Keine Anforderung"
+			},
+			{
+				"code": 9,
+				"date": "2024-06-07T07:18:58.000Z",
+				"message": "Keine Anforderung"
+			},
+			{
+				"code": 9,
+				"date": "2024-06-08T07:20:49.000Z",
+				"message": "Keine Anforderung"
+			},
+			{
+				"code": 9,
+				"date": "2024-06-09T07:20:29.000Z",
+				"message": "Keine Anforderung"
+			}
+		],
+		"Comfort_exists": 1,
+		"heatpump_state1": 1,
+		"heatpump_state2": 0,
+		"heatpump_state3": 1,
+		"heatpump_duration": 59307,
+		"heatpump_state_string": "Waermepumpe steht seit 16 Stunden, 28 Minuten und 27 Sekunden",
+		"heatpump_extendet_state_string": "Keine Anforderung",
+		"ahp_Stufe": 0,
+		"ahp_Temp": 0,
+		"ahp_Zeit": 259200,
+		"opStateHotWater": 3,
+		"opStateHotWaterString": "Aus",
+		"opStateHeating": 0,
+		"opStateMixer1": 0,
+		"opStateMixer2": 0,
+		"Einst_Kurzprogramm": 0,
+		"StatusSlave_1": 0,
+		"StatusSlave_2": 0,
+		"StatusSlave_3": 0,
+		"StatusSlave_4": 0,
+		"StatusSlave_5": 0,
+		"rawDeviceTimeCalc": "Mon Jun 10 2024 09:57:18 GMT+0200 (Central European Summer Time)",
+		"opStateMixer3": 0,
+		"temperature_mixer3_target": "no",
+		"temperature_mixer3_flow": "no",
+		"MZ3out": 0,
+		"MA3out": 0,
+		"FP3out": 0,
+		"heatSourceDefrostTimer": "no",
+		"Temperatur_RFV2": 0,
+		"Temperatur_RFV3": 0,
+		"SH_SW": 1,
+		"Zaehler_BetrZeitSW": 0,
+		"FreigabKuehl": 0,
+		"AnalogIn": 1,
+		"SonderZeichen": 0,
+		"SH_ZIP": 0,
+		"WebsrvProgrammWerteBeobarten": 0,
+		"thermalenergy_heating": 114793.9,
+		"thermalenergy_warmwater": 35718.7,
+		"thermalenergy_pool": "no",
+		"thermalenergy_total": 131323.9,
+		"analogOut1": 0,
+		"analogOut2": 400,
+		"Time_Heissgas": 0,
+		"Temp_Lueftung_Zuluft": 0,
+		"Temp_Lueftung_Abluft": 0,
+		"hours_solar": "no",
+		"analogOut3": 0,
+		"analogOut4": "no",
+		"Out_VZU": 0,
+		"Out_VAB": 0,
+		"Out_VSK": 0,
+		"Out_FRH": 0,
+		"AnalogIn2": 0,
+		"AnalogIn3": 0,
+		"SAXin": 0,
+		"SPLin": 0,
+		"Compact_exists": 0,
+		"Durchfluss_WQ": 0,
+		"LIN_exists": 1,
+		"LIN_TUE": 198,
+		"LIN_TUE1": 300,
+		"LIN_VDH": 481,
+		"LIN_UH": 106,
+		"LIN_UH_Soll": 80,
+		"LIN_HD": 722,
+		"LIN_ND": 724,
+		"LIN_VDH_out": 0,
+		"flowRate": "no",
+		"opStateHeatingString": "Abgesenkt 0 °C"
+	},
+	"parameters": {
+		"heating_temperature": -2,
+		"warmwater_temperature": 56,
+		"heating_operation_mode": 0,
+		"warmwater_operation_mode": 4,
+		"heating_operation_mode_string": "Automatik",
+		"warmwater_operation_mode_string": "Aus",
+		"heating_curve_end_point": 29,
+		"heating_curve_parallel_offset": 22.5,
+		"deltaHeatingReduction": 0,
+		"mk1_curve_end_point": 28.5,
+		"mk1_curve_parallel_offset": 27.5,
+		"deltaMk1Reduction": 0,
+		"heatSourcedefrostAirThreshold": "no",
+		"hotWaterTemperatureHysteresis": 6,
+		"returnTemperatureHysteresis": 1.5,
+		"heatingTemperatureOutside2ndCompressor": 5,
+		"hotwaterTemperatureForerun2ndCompressor": 50,
+		"heatSourcedefrostAirEnd": "no",
+		"temperature_hot_water_target": 56,
+		"cooling_operation_mode": 0,
+		"cooling_release_temperature": 20,
+		"thresholdTemperatureSetBack": 0,
+		"cooling_inlet_temp": 20,
+		"hotWaterCircPumpDeaerate": "off",
+		"solarPumpDeaerate": "off",
+		"runDeaerate": "off",
+		"heatingLimit": 1,
+		"thresholdHeatingLimit": 20,
+		"cooling_start_after_hours": 120,
+		"cooling_stop_after_hours": 120,
+		"typeSerial": "2311/19-310",
+		"returnTemperatureTargetMin": 15,
+		"temperature_supply_limit": 70,
+		"temperature_return_limit": 45,
+		"temperature_outdoor_max": 35,
+		"temperature_outdoor_min": -20,
+		"temperature_ZWE_possible": -12,
+		"temperature_hot_water_limit": 65,
+		"heating_system_circ_pump_voltage_nominal": 10,
+		"heating_system_circ_pump_voltage_minimal": 4,
+		"heatingOperationTimerTableSelected": 0,
+		"heatingOperationTimerTableSelectedString": "Woche (Mo-So)",
+		"heatingOperationTimerTableWeek": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTable52MonFri": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTable52SatSun": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTableDaySunday": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTableDayMonday": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTableDayTuesday": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTableDayWednesday": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTableDayThursday": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTableDayFriday": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"heatingOperationTimerTableDaySaturday": [
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTableSelected": 0,
+		"hotWaterOperationTimerTableSelectedString": "Woche (Mo-So)",
+		"hotWaterOperationTimerTableWeek": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTable52MonFri": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTable52SatSun": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTableDaySunday": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTableDayMonday": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTableDayTuesday": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTableDayWednesday": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTableDayThursday": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTableDayFriday": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterOperationTimerTableDaySaturday": [
+			{
+				"on": "06:00",
+				"off": "00:00"
+			},
+			{
+				"on": "12:30",
+				"off": "10:00"
+			},
+			{
+				"on": "00:00",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTableSelected": 0,
+		"hotWaterCircPumpTimerTableSelectedString": "Woche (Mo-So)",
+		"hotWaterCircPumpTimerTableWeek": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTable52MonFri": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTable52SatSun": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTableDaySunday": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTableDayMonday": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTableDayTuesday": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTableDayWednesday": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTableDayThursday": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTableDayFriday": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpTimerTableDaySaturday": [
+			{
+				"on": "06:00",
+				"off": "09:00"
+			},
+			{
+				"on": "14:30",
+				"off": "19:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			},
+			{
+				"on": "00:00",
+				"off": "00:00"
+			}
+		],
+		"hotWaterCircPumpOnTime": 1,
+		"hotWaterCircPumpOffTime": 120,
+		"thermal_desinfection_on_monday": 0,
+		"thermal_desinfection_on_tuesday": 0,
+		"thermal_desinfection_on_wednesday": 0,
+		"thermal_desinfection_on_thursday": 0,
+		"thermal_desinfection_on_friday": 0,
+		"thermal_desinfection_on_saturday": 0,
+		"thermal_desinfection_on_sunday": 0,
+		"thermal_desinfection_continuous_operation": 0
+	},
+	"additional": {
+		"reading_calculated_time_ms": 806
+	}
+}

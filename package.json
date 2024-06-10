@@ -5,6 +5,7 @@
   "main": "luxtronik.js",
   "dependencies": {
     "humanize-duration": "^3.31.0",
+    "jest": "^29.7.0",
     "net": "^1.0.2"
   },
   "devDependencies": {
@@ -19,7 +20,7 @@
   },
   "scripts": {
     "start": "node example.js",
-    "test": "npx mocha",
+    "test": "jest",
     "lint": "npx eslint ."
   },
   "repository": {
